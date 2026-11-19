@@ -1,5 +1,6 @@
 # Artifacts
 graft
+compile_commands.json
 
 # Prerequisites
 *.d
