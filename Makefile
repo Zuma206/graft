@@ -10,4 +10,4 @@ main.o: src/main.c
 	$(CC) $(CFLAGS) -c -o $@ $^
 
 lib/foundry/foundry.o:
-	make --directory lib/foundry foundry.o
+	$(MAKE) --directory lib/foundry foundry.o
